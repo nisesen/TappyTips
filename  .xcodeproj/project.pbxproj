@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D6406EF00B989EFB393AB3D /* Pods_TappyTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136BAB4C55330F672003CC6D /* Pods_TappyTips.framework */; };
+		B6A4796F208FAF5800BF301F /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4796E208FAF5800BF301F /* CameraController.swift */; };
+		B6E3262A208F01810094309D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E32629208F01810094309D /* AppDelegate.swift */; };
+		B6E32632208F01810094309D /* TappyTips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6E32630208F01810094309D /* TappyTips.xcdatamodeld */; };
+		B6E32634208F01830094309D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E32633208F01830094309D /* Assets.xcassets */; };
+		B6E32637208F01830094309D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E32635208F01830094309D /* LaunchScreen.storyboard */; };
+		B6E32640208F01D60094309D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E3263F208F01D60094309D /* HomeController.swift */; };
+		B6E32642208F01EE0094309D /* MostPopularController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E32641208F01EE0094309D /* MostPopularController.swift */; };
+		B6E32644208F02050094309D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E32643208F02050094309D /* SearchController.swift */; };
+		B6E32646208F02180094309D /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E32645208F02180094309D /* CategoriesController.swift */; };
+		B6E3264A208F039F0094309D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E32649208F039F0094309D /* TabBarController.swift */; };
+		B6E32654208F11830094309D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E32653208F11830094309D /* PostCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08C2DB86C14831C2923D2841 /* Pods-TappyTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappyTips.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TappyTips/Pods-TappyTips.debug.xcconfig"; sourceTree = "<group>"; };
+		136BAB4C55330F672003CC6D /* Pods_TappyTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappyTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A4796E208FAF5800BF301F /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		B6E32626208F01810094309D /* TappyTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TappyTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E32629208F01810094309D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6E32631208F01810094309D /* TappyTips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TappyTips.xcdatamodel; sourceTree = "<group>"; };
+		B6E32633208F01830094309D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6E32636208F01830094309D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6E32638208F01830094309D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E3263F208F01D60094309D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B6E32641208F01EE0094309D /* MostPopularController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularController.swift; sourceTree = "<group>"; };
+		B6E32643208F02050094309D /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		B6E32645208F02180094309D /* CategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
+		B6E32649208F039F0094309D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B6E32653208F11830094309D /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CA39065FA6C9A8AE3AEF3861 /* Pods-TappyTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappyTips.release.xcconfig"; path = "Pods/Target Support Files/Pods-TappyTips/Pods-TappyTips.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E32623208F01810094309D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6406EF00B989EFB393AB3D /* Pods_TappyTips.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D29C437EFDF32896F8CA882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				136BAB4C55330F672003CC6D /* Pods_TappyTips.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0ADBA4C1B4C26BD01BCA4DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08C2DB86C14831C2923D2841 /* Pods-TappyTips.debug.xcconfig */,
+				CA39065FA6C9A8AE3AEF3861 /* Pods-TappyTips.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6E3261D208F01810094309D = {
+			isa = PBXGroup;
+			children = (
+				B6E32628208F01810094309D /* TappyTips */,
+				B6E32627208F01810094309D /* Products */,
+				B0ADBA4C1B4C26BD01BCA4DD /* Pods */,
+				8D29C437EFDF32896F8CA882 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E32627208F01810094309D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E32626208F01810094309D /* TappyTips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E32628208F01810094309D /* TappyTips */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3263F208F01D60094309D /* HomeController.swift */,
+				B6E32641208F01EE0094309D /* MostPopularController.swift */,
+				B6E32643208F02050094309D /* SearchController.swift */,
+				B6E32645208F02180094309D /* CategoriesController.swift */,
+				B6E32629208F01810094309D /* AppDelegate.swift */,
+				B6E32633208F01830094309D /* Assets.xcassets */,
+				B6E32635208F01830094309D /* LaunchScreen.storyboard */,
+				B6E32638208F01830094309D /* Info.plist */,
+				B6E32630208F01810094309D /* TappyTips.xcdatamodeld */,
+				B6E32649208F039F0094309D /* TabBarController.swift */,
+				B6E32653208F11830094309D /* PostCell.swift */,
+				B6A4796E208FAF5800BF301F /* CameraController.swift */,
+			);
+			path = TappyTips;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E32625208F01810094309D /* TappyTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E3263B208F01830094309D /* Build configuration list for PBXNativeTarget "TappyTips" */;
+			buildPhases = (
+				B30B521554EDF1DDC1061421 /* [CP] Check Pods Manifest.lock */,
+				B6E32622208F01810094309D /* Sources */,
+				B6E32623208F01810094309D /* Frameworks */,
+				B6E32624208F01810094309D /* Resources */,
+				CD07FCE3CF980909517FDC72 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TappyTips;
+			productName = TappyTips;
+			productReference = B6E32626208F01810094309D /* TappyTips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E3261E208F01810094309D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Daniel Shiferaw";
+				TargetAttributes = {
+					B6E32625208F01810094309D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B6E32621208F01810094309D /* Build configuration list for PBXProject " " */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E3261D208F01810094309D;
+			productRefGroup = B6E32627208F01810094309D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E32625208F01810094309D /* TappyTips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E32624208F01810094309D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E32637208F01830094309D /* LaunchScreen.storyboard in Resources */,
+				B6E32634208F01830094309D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B30B521554EDF1DDC1061421 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TappyTips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD07FCE3CF980909517FDC72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TappyTips/Pods-TappyTips-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TappyTips/Pods-TappyTips-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E32622208F01810094309D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A4796F208FAF5800BF301F /* CameraController.swift in Sources */,
+				B6E32642208F01EE0094309D /* MostPopularController.swift in Sources */,
+				B6E32644208F02050094309D /* SearchController.swift in Sources */,
+				B6E32640208F01D60094309D /* HomeController.swift in Sources */,
+				B6E32646208F02180094309D /* CategoriesController.swift in Sources */,
+				B6E3264A208F039F0094309D /* TabBarController.swift in Sources */,
+				B6E32632208F01810094309D /* TappyTips.xcdatamodeld in Sources */,
+				B6E3262A208F01810094309D /* AppDelegate.swift in Sources */,
+				B6E32654208F11830094309D /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6E32635208F01830094309D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E32636208F01830094309D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6E32639208F01830094309D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6E3263A208F01830094309D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E3263C208F01830094309D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C2DB86C14831C2923D2841 /* Pods-TappyTips.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMNG6N7BFA;
+				INFOPLIST_FILE = TappyTips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dshiferaw.TappyTips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6E3263D208F01830094309D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA39065FA6C9A8AE3AEF3861 /* Pods-TappyTips.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMNG6N7BFA;
+				INFOPLIST_FILE = TappyTips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dshiferaw.TappyTips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E32621208F01810094309D /* Build configuration list for PBXProject " " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E32639208F01830094309D /* Debug */,
+				B6E3263A208F01830094309D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E3263B208F01830094309D /* Build configuration list for PBXNativeTarget "TappyTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E3263C208F01830094309D /* Debug */,
+				B6E3263D208F01830094309D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6E32630208F01810094309D /* TappyTips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6E32631208F01810094309D /* TappyTips.xcdatamodel */,
+			);
+			currentVersion = B6E32631208F01810094309D /* TappyTips.xcdatamodel */;
+			path = TappyTips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6E3261E208F01810094309D /* Project object */;
+}
